@@ -1,3 +1,18 @@
+# e4e + StyleCLIP Condensed.
+The main purpose of this fork was to move this to a more vanilla jupyter friendly version which can be used on my docker image:
+axumkevar/e4estyleclip
+
+Current tag:
+beta
+
+To use this, please run e4e+StyleCLIP-Condensed.ipynb in notebooks.
+
+Images for editing will need to be included in images_in and images_out under /content/encoder4editing/
+(these folders do not exist)
+
+Note that at present, the ffhq dataset for e4e/psp is rate limited under the original author's drive. You may need to acquire this from another source.
+
+
 # e4e + StyleCLIP w/ global colab:
 Test on ffhq dataset only: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bycloudai/StyleCLIP-e4e-colab/blob/main/notebooks/e4e%2BStyleCLIPglobal.ipynb)
 
